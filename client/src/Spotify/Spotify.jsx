@@ -200,7 +200,7 @@ function Spotify() {
         <div className="container mx-auto px-4 py-4 h-full">
           <div className="flex justify-between items-center mb-4">
             <div className="flex items-center">
-              <h2 className="text-white font-bold mr-2">Emofy</h2>
+              <h2 className="text-white font-bold mr-2">FaceBeats</h2>
               <RiNeteaseCloudMusicFill size={25} color="limegreen" />
               {/* <Music color="limegreen" size={25} /> */}
               {/* <img src={spotify} alt="Spotify" className="w-10 h-10" /> */}
