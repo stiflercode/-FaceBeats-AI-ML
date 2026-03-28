@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+    .cardContainer {
+        grid-template-columns: 1fr;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
+
+    .loginbtn,
+    .signupbtn {
+        padding: 8px;
+        font-size: 14px;
+    }
+}
+
+.playbar {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px;
+}
+
+@media (max-width: 500px) {
+    .playbar {
+        width: 85%;
+        bottom: 10px;
+    }
+}
+
+webcam {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .hamburgerContainer img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .hamburgerContainer h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .card h2 {
+        font-size: 1rem;
+    }
+
+    .card p {
+        font-size: 0.8rem;
+    }
+
+    .spotifyPlaylists h1 {
+        font-size: 1.5rem;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .custom-audio-player {
+        width: 100% !important;
+        padding: 0 5px;
+    }
+
+    .rhap_container {
+        padding: 3px !important;
+    }
+}
